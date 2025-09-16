@@ -127,7 +127,7 @@
   }
 
   .footer-socials a:hover {
-    background: #2563eb;
+    /* background: #2563eb; */
     color: white;
     transform: translateY(-2px);
   }
