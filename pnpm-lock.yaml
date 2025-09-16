@@ -35,6 +35,9 @@ importers:
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
+      lucide-svelte:
+        specifier: ^0.544.0
+        version: 0.544.0(svelte@5.37.3)
       qrcode:
         specifier: ^1.5.4
         version: 1.5.4
@@ -786,6 +789,11 @@ packages:
   locate-path@5.0.0:
     resolution: {integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==}
     engines: {node: '>=8'}
+
+  lucide-svelte@0.544.0:
+    resolution: {integrity: sha512-8kBxSivf8SJdEUJRHBpu9bRw0S/qfVK+Yfb92KQnRRBdP425RzT6aQfrIfZctG1oucPVTBQe1ZXgmth/3qVICg==}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5.0.0-next.42
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -1552,6 +1560,10 @@ snapshots:
   locate-path@5.0.0:
     dependencies:
       p-locate: 4.1.0
+
+  lucide-svelte@0.544.0(svelte@5.37.3):
+    dependencies:
+      svelte: 5.37.3
 
   magic-string@0.30.17:
     dependencies:
